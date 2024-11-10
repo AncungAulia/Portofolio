@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+body{
+    background-color: rgb(238, 238, 238);
+}
+.up-bar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    height: 40px; 
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(59, 30, 84);
+}
+.name-up-bar{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(238, 238, 238);
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+.nav-list li{
+    margin: 0 10px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+    font-family:'PT Sans', sans-serif;
+}
+.social-media{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(238, 238, 238);
+    padding-top: 6px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 250px;
+    padding-top: 120px;
+    height: calc(100vh - 50px);
+    box-sizing: border-box;
+}
+.home-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.introduction{
+    flex: 1;
+    padding-top: 70px;
+}
+.intro-upper, .intro-name, .intro-lower{
+    margin: 0;
+} 
+.intro-upper{
+    font-family:'PT Sans', sans-serif;
+    color: rgb(59, 30, 84);
+    font-size: 30px;
+}
+.intro-name{
+    font-family:'PT Sans', sans-serif;
+    color: rgb(59, 30, 84);
+    font-size: 40px;
+    font-weight: bold;
+}
+.intro-lower{
+    font-family:'PT Sans', sans-serif;
+    color: rgb(59, 30, 84);
+    font-size: 20px;
+}
+.ancung{
+    font-family:'PT Sans', sans-serif;
+    color: rgb(59, 30, 84);
+    font-size: 30px;
+    background-color: rgb(59, 30, 84);
+    color: rgb(238, 238, 238);
+    padding: 5px;
+    border-radius: 10px;
+}
+.photo img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+#about-me{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.title{
+    text-align: left;
+    font-family:'PT Sans', sans-serif;
+    color: rgb(59, 30, 84);
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.par-about-me{
+    text-align: justify;
+    font-family:'PT Sans', sans-serif;
+    color: rgb(59, 30, 84);
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.cv{
+    font-family:'PT Sans', sans-serif;
+    color: rgb(238, 238, 238);
+    padding: 10px;
+    border-radius: 30px;
+    background-color:rgb(59, 30, 84) ;
+    text-decoration: none;
+}
+#education{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.education-list{
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(59, 30, 84);
+    font-size: 20px;
+}
+#project{
+    height: 80vh;
+    align-items: center;
+    padding: 0px 50px;
+}
+.project-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.project-1, .project-2{
+    flex: 1;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+.project-title{
+    font-size: 25px;
+    font-family:'PT Sans', sans-serif;
+    color:rgb(59, 30, 84) ;
+}
+.project-1 img, .project-2 img{
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.text-project{
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    color:rgb(59, 30, 84);
+    text-align: justify;
+}
